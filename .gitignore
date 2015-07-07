@@ -1,4 +1,4 @@
-# Regular
+# nix regular
 
 .*
 *.o
@@ -24,3 +24,29 @@ modules.builtin
 *.patch
 *.gcno
 Module.symvers
+
+# msvs regular
+*.[Oo]bj
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+ipch/
+[Oo]bj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
